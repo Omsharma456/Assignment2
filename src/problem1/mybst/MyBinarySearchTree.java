@@ -24,6 +24,8 @@ public class MyBinarySearchTree {
             return;
         }
         stringBuilder.append(root.getKey() + " ");
+        preOrder(root.getLeftChild());
+        preOrder(root.getRightChild());
 
     }
 }
