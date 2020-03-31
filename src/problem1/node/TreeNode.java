@@ -20,4 +20,8 @@ public class TreeNode {
     public int getKey() {
         return key;
     }
+
+    public void setKey(int key) {
+        this.key = key;
+    }
 }
