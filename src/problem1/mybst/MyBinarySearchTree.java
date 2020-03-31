@@ -18,4 +18,7 @@ public class MyBinarySearchTree {
         this.root = null;
         stringBuilder = new StringBuilder();
     }
+
+    public static void preOrder(TreeNode root) {
+    }
 }
