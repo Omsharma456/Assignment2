@@ -10,4 +10,10 @@ public class TreeNode {
     private int key;
     private TreeNode leftChild;
     private TreeNode rightChild;
+
+    public TreeNode(int item) {
+        key = item;
+        leftChild = null;
+        rightChild = null;
+    }
 }
