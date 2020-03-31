@@ -24,4 +24,8 @@ public class TreeNode {
     public void setKey(int key) {
         this.key = key;
     }
+
+    public TreeNode getLeftChild() {
+        return leftChild;
+    }
 }
