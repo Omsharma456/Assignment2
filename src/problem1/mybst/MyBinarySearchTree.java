@@ -8,4 +8,5 @@ package problem1.mybst;
 // to implement BinarySearchTree
 public class MyBinarySearchTree {
     public static StringBuilder stringBuilder;
+    public int levels = 0;
 }
