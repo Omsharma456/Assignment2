@@ -20,5 +20,8 @@ public class MyBinarySearchTree {
     }
 
     public static void preOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
     }
 }
