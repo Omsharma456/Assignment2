@@ -9,4 +9,5 @@ package problem1.node;
 public class TreeNode {
     private int key;
     private TreeNode leftChild;
+    private TreeNode rightChild;
 }
