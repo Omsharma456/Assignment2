@@ -16,4 +16,8 @@ public class TreeNode {
         leftChild = null;
         rightChild = null;
     }
+
+    public int getKey() {
+        return key;
+    }
 }
