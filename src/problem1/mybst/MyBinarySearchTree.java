@@ -23,5 +23,6 @@ public class MyBinarySearchTree {
         if (root == null) {
             return;
         }
+        stringBuilder.append(root.getKey() + " ")
     }
 }
